@@ -77,7 +77,7 @@ public class PaymentController {
             String vnp_ExpireDate = formatter.format(cld.getTime());
             vnp_Params.put("vnp_ExpireDate", vnp_ExpireDate);
 
-            vnp_Params.put("address_delivery", orderRequestDto.getAddressDelivery());
+//            vnp_Params.put("address_delivery", orderRequestDto.getAddressDelivery());
 
 
             List<String> fieldNames = new ArrayList<>(vnp_Params.keySet());
